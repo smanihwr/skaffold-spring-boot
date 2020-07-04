@@ -11,7 +11,7 @@ public class TimeController {
     @RequestMapping("/time")
     @GetMapping
     public String time() {
-        return String.format("Now time is %s", Instant.now().toString());
+        return String.format("Current time is %s", Instant.now().toString());
     }
 
 }
